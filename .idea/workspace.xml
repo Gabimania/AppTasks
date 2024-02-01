@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c34478f-0a19-4862-b260-4d54b8819c4d" name="Changes" comment="Creating Project">
-      <change afterPath="$PROJECT_DIR$/src/BBDD/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/TasksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/ModeloBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
+    <list default="true" id="3c34478f-0a19-4862-b260-4d54b8819c4d" name="Changes" comment="&quot;Implementation of an abstract class and a controller that allows the development of methods to retrieve lists of each object and perform CRUD operations.&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppTasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BBDD/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BBDD/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TasksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ModeloBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ModeloBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Alumno Tarde/IdeaProjects/AppTasks/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno Tarde/IdeaProjects/AppTasks/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alumno Tarde\IdeaProjects\AppTasks" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,11 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706632244565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Implementation of an abstract class and a controller that allows the development of methods to retrieve lists of each object and perform CRUD operations.&quot;">
+      <option name="closed" value="true" />
+      <created>1706643523346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706643523346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Project" />
+    <MESSAGE value="&quot;Implementation of an abstract class and a controller that allows the development of methods to retrieve lists of each object and perform CRUD operations.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implementation of an abstract class and a controller that allows the development of methods to retrieve lists of each object and perform CRUD operations.&quot;" />
   </component>
 </project>

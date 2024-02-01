@@ -7,15 +7,17 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class User {
+public class User extends  ModeloBase{
 
     private int id;
     private String username;
     private String password;
 
-    public User(int id, String username) {
+    public User(int id, String username, String password) {
         this.id = id;
         this.username = username;
+        this.password = password;
+
     }
 
     public User() {
@@ -48,9 +50,9 @@ public class User {
             }
         }
 
-
-
     }
+
+
 
     public int getId() {
         return id;
@@ -84,5 +86,10 @@ public class User {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 '}';
+    }
+
+    @Override
+    protected String getNombreTabla() {
+        return "user";
     }
 }

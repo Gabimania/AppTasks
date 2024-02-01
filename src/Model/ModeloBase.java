@@ -49,7 +49,7 @@ public  abstract class ModeloBase {
     }
 
     public boolean borrar(String sql, Object... parametros) {
-        sql = "delete from " +getNombreTabla() + " where " +sql;
+        sql = "delete from " +getNombreTabla() + sql;
         return ejecutarQuery(sql, parametros);
     }
 

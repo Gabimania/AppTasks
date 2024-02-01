@@ -9,7 +9,6 @@ import java.sql.Statement;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Task extends ModeloBase{
@@ -99,7 +98,7 @@ public class Task extends ModeloBase{
     public static List<Task> getTasks(){
         List<Task>taskList = new ArrayList<>();
         Connection con = Conexion.conectar();
-        String sql = "select * from task";
+        String sql = "select t.idTask, t.title, t.description, t.datetime, t.deadline, t.status, u.idUser, u.username from apptasks.task as t  inner join apptasks.user as u  on t.idUser= u.idUser;";
         try {
             Statement stm = con.createStatement();
             ResultSet respuesta = stm.executeQuery(sql);
